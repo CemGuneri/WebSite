@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim</title>
+</head>
+
+<body>
+    <form action="success.html" method="post">
+        <main style="width: 1000px;margin: 0 auto; text-align: center;">
+
+            <a href="index.html"><img src="logo/YesilKartlı.png" alt="Cemgunerilogo"></a>
+            <h1>İletişim</h1>
+            <nav>
+                <a href="index.html">Ana Sayfa</a>
+                <a href="about.html">Hakkımda</a>
+                <a href="contact.html">İletişim</a>
+                <a href="gallery.html">Galeri</a>
+            </nav>
+            <p>Bu konularla ilgili kafasında soru olanlar, benden yardım almak isteyenler lütfen iletişime geçsinler</p>
+            <label for="namesurname">Ad Soyad</label>
+            <input name="namesurname" type="text" placeholder="Cem Güneri" required>
+            <br>
+            <label for="optgroup">Cinsiyet</label>
+            <select>
+                <optgroup label="Cinsiyet" placeholder="Cinsiyet" aria-valuetext="Cinsiyet">
+
+                    <option value="0">Erkek</option>
+                    <option value="1">Kadın</option>
+                </optgroup>
+            </select>
+
+
+            <br>
+            <label for="email">E-Posta</label>
+            <input name="email" type="email" placeholder="123@exm.com" required>
+            <br>
+            <label for="phonenumber">Cep</label>
+            <input name="phonenumber" type="tel" placeholder="5........." required>
+            <br>
+            <label for="onaykutusu">Bilgilerimin Doğruluğunu Onaylıyorum</label>
+            <input name="onaykutusu" type="checkbox" required><br>
+
+
+
+
+
+            <input type="submit" value="Kaydet ve Gönder">
+    </form>
+    </main>
+
+</body>
+
+
+</html>
